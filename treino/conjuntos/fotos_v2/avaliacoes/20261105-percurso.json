@@ -1,0 +1,678 @@
+{
+ "ATENCAO": "Medição DENTRO da amostra: o modelo 20261105-percurso foi treinado com estas fotos (via banco_unificado). Serve para conferir que o arquivo publicado não piorou nas classes antigas (o anterior também acertou 14 de 14). A medição em fotos não vistas está em validacao do rotulos.json.",
+ "modelo": {
+  "arquivo": "yolo-fabrica.onnx",
+  "versao": "20261105-percurso",
+  "conjunto_de_treino": "percurso (100 imagens do percurso com 159 pinos revisados + pseudo-rótulos das classes antigas) + banco_unificado (59 fotos)",
+  "classes": [
+   "caixa",
+   "carteira",
+   "escada",
+   "lixeira",
+   "manequim",
+   "mesa",
+   "banco",
+   "planta",
+   "cadeira",
+   "pessoa",
+   "pino"
+  ]
+ },
+ "conjunto_avaliado": {
+  "nome": "fotos_v2",
+  "versao": "v2.0-marcacoes-20261030"
+ },
+ "criterio": {
+  "nota_min": 0.3,
+  "iou_min": 0.3
+ },
+ "medido_em": "2026-11-05T22:22:33",
+ "resumo": {
+  "fotos_prontas": 14,
+  "medidas": 14,
+  "acertos": 14,
+  "fora_do_modelo": 0,
+  "inferencia_ms_cpu_python": {
+   "media": 11.0,
+   "p95": 13.9
+  }
+ },
+ "fotos": [
+  {
+   "arquivo": "banco_lado.png",
+   "classe_marcada": "banco",
+   "situacao_no_conjunto": "pendente",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "banco",
+     "nota": 0.832,
+     "caixa_px": [
+      0.0,
+      281.6,
+      774.0,
+      543.9
+     ]
+    },
+    {
+     "classe": "banco",
+     "nota": 0.674,
+     "caixa_px": [
+      140.5,
+      0.0,
+      632.4,
+      113.8
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "branco.png",
+   "classe_marcada": "banco",
+   "situacao_no_conjunto": "pendente",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "banco",
+     "nota": 0.914,
+     "caixa_px": [
+      281.6,
+      31.1,
+      597.7,
+      708.7
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "cadeira_individual.png",
+   "classe_marcada": "cadeira",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "cadeira",
+     "nota": 0.926,
+     "caixa_px": [
+      197.2,
+      0.0,
+      645.8,
+      671.2
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "cadeira_individual_lado.png",
+   "classe_marcada": "cadeira",
+   "situacao_no_conjunto": "pendente",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "cadeira",
+     "nota": 0.893,
+     "caixa_px": [
+      74.1,
+      44.6,
+      580.0,
+      760.0
+     ]
+    },
+    {
+     "classe": "caixa",
+     "nota": 0.809,
+     "caixa_px": [
+      296.1,
+      0.5,
+      492.2,
+      118.1
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "cadeiras_enfileiradas.png",
+   "classe_marcada": "cadeira",
+   "situacao_no_conjunto": "pendente",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "cadeira",
+     "nota": 0.844,
+     "caixa_px": [
+      23.0,
+      153.9,
+      538.0,
+      762.7
+     ]
+    },
+    {
+     "classe": "cadeira",
+     "nota": 0.652,
+     "caixa_px": [
+      151.4,
+      0.0,
+      533.9,
+      449.3
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "cadeiras_enfileiradas_frente.png",
+   "classe_marcada": "cadeira",
+   "situacao_no_conjunto": "pendente",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "cadeira",
+     "nota": 0.874,
+     "caixa_px": [
+      118.7,
+      140.8,
+      416.6,
+      605.6
+     ]
+    },
+    {
+     "classe": "cadeira",
+     "nota": 0.837,
+     "caixa_px": [
+      390.9,
+      141.7,
+      690.9,
+      609.9
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "caixa_individual.png",
+   "classe_marcada": "caixa",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "caixa",
+     "nota": 0.894,
+     "caixa_px": [
+      11.7,
+      0.0,
+      771.4,
+      712.8
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "caixa_individual_em_pé.png",
+   "classe_marcada": "caixa",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "caixa",
+     "nota": 0.879,
+     "caixa_px": [
+      90.6,
+      73.5,
+      795.6,
+      819.4
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "caixa_individual_lado.png",
+   "classe_marcada": "caixa",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "caixa",
+     "nota": 0.821,
+     "caixa_px": [
+      97.3,
+      130.3,
+      852.9,
+      783.3
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "humano_frente.png",
+   "classe_marcada": "pessoa",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "pessoa",
+     "nota": 0.937,
+     "caixa_px": [
+      279.2,
+      75.2,
+      565.0,
+      760.7
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "humano_lado.png",
+   "classe_marcada": "pessoa",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "pessoa",
+     "nota": 0.845,
+     "caixa_px": [
+      225.0,
+      27.3,
+      525.5,
+      774.0
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "lixeira_frente.png",
+   "classe_marcada": "lixeira",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "lixeira",
+     "nota": 0.983,
+     "caixa_px": [
+      31.0,
+      0.0,
+      701.4,
+      773.0
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "lixeira_lado.png",
+   "classe_marcada": "lixeira",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "lixeira",
+     "nota": 0.981,
+     "caixa_px": [
+      9.1,
+      0.0,
+      696.2,
+      771.3
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "lixeira_vista_cima.png",
+   "classe_marcada": "lixeira",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "lixeira",
+     "nota": 0.938,
+     "caixa_px": [
+      77.9,
+      103.2,
+      648.8,
+      708.0
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "manequim_do_rock.png",
+   "classe_marcada": "manequim",
+   "situacao_no_conjunto": "pendente",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "manequim",
+     "nota": 0.937,
+     "caixa_px": [
+      223.7,
+      6.0,
+      530.9,
+      768.4
+     ]
+    },
+    {
+     "classe": "manequim",
+     "nota": 0.772,
+     "caixa_px": [
+      583.8,
+      8.5,
+      774.0,
+      648.2
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "manequim_grande_frente.png",
+   "classe_marcada": "manequim",
+   "situacao_no_conjunto": "pendente",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "manequim",
+     "nota": 0.925,
+     "caixa_px": [
+      153.1,
+      4.0,
+      517.9,
+      765.7
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "manequim_grande_lado.png",
+   "classe_marcada": "manequim",
+   "situacao_no_conjunto": "pendente",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "manequim",
+     "nota": 0.738,
+     "caixa_px": [
+      191.0,
+      2.4,
+      554.5,
+      774.0
+     ]
+    },
+    {
+     "classe": "manequim",
+     "nota": 0.41,
+     "caixa_px": [
+      141.3,
+      0.8,
+      366.1,
+      762.3
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "mesasinha.png",
+   "classe_marcada": "mesa",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "mesa",
+     "nota": 0.95,
+     "caixa_px": [
+      105.2,
+      6.2,
+      755.0,
+      659.1
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "mesasinha_lado.png",
+   "classe_marcada": "mesa",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "mesa",
+     "nota": 0.936,
+     "caixa_px": [
+      9.2,
+      58.3,
+      700.5,
+      721.4
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "multiplos_manequins.png",
+   "classe_marcada": "manequim",
+   "situacao_no_conjunto": "pendente",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "manequim",
+     "nota": 0.866,
+     "caixa_px": [
+      120.3,
+      113.2,
+      343.8,
+      770.7
+     ]
+    },
+    {
+     "classe": "manequim",
+     "nota": 0.824,
+     "caixa_px": [
+      317.7,
+      113.5,
+      533.6,
+      761.7
+     ]
+    },
+    {
+     "classe": "manequim",
+     "nota": 0.749,
+     "caixa_px": [
+      624.3,
+      34.3,
+      774.0,
+      769.0
+     ]
+    },
+    {
+     "classe": "manequim",
+     "nota": 0.717,
+     "caixa_px": [
+      476.7,
+      76.1,
+      664.4,
+      759.7
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "objeto_estranho.png",
+   "classe_marcada": null,
+   "situacao_no_conjunto": "pendente",
+   "resultado": "sem_classe",
+   "deteccoes": [
+    {
+     "classe": "caixa",
+     "nota": 0.692,
+     "caixa_px": [
+      636.8,
+      110.4,
+      772.3,
+      181.1
+     ]
+    },
+    {
+     "classe": "caixa",
+     "nota": 0.631,
+     "caixa_px": [
+      518.9,
+      275.8,
+      746.0,
+      499.7
+     ]
+    },
+    {
+     "classe": "cadeira",
+     "nota": 0.537,
+     "caixa_px": [
+      211.7,
+      0.3,
+      569.0,
+      749.2
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "pilha_de_caixas.png",
+   "classe_marcada": "caixa",
+   "situacao_no_conjunto": "pendente",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "caixa",
+     "nota": 0.885,
+     "caixa_px": [
+      134.6,
+      297.5,
+      565.8,
+      547.6
+     ]
+    },
+    {
+     "classe": "caixa",
+     "nota": 0.86,
+     "caixa_px": [
+      102.5,
+      51.9,
+      593.5,
+      331.6
+     ]
+    },
+    {
+     "classe": "caixa",
+     "nota": 0.853,
+     "caixa_px": [
+      160.2,
+      516.6,
+      563.4,
+      732.7
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "pilha_de_caixas_lado.png",
+   "classe_marcada": "caixa",
+   "situacao_no_conjunto": "pendente",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "caixa",
+     "nota": 0.812,
+     "caixa_px": [
+      160.3,
+      512.6,
+      520.9,
+      736.9
+     ]
+    },
+    {
+     "classe": "caixa",
+     "nota": 0.711,
+     "caixa_px": [
+      118.3,
+      285.2,
+      511.0,
+      535.8
+     ]
+    },
+    {
+     "classe": "caixa",
+     "nota": 0.524,
+     "caixa_px": [
+      46.4,
+      7.5,
+      520.5,
+      320.5
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "pilha_de_caixas_vista_cima.png",
+   "classe_marcada": "caixa",
+   "situacao_no_conjunto": "pendente",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "caixa",
+     "nota": 0.826,
+     "caixa_px": [
+      151.2,
+      130.3,
+      589.5,
+      526.9
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "planta.png",
+   "classe_marcada": "planta",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "planta",
+     "nota": 0.846,
+     "caixa_px": [
+      91.5,
+      0.0,
+      714.3,
+      737.1
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "planta_al.png",
+   "classe_marcada": "planta",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "planta",
+     "nota": 0.907,
+     "caixa_px": [
+      98.0,
+      0.2,
+      583.4,
+      774.0
+     ]
+    }
+   ]
+  },
+  {
+   "arquivo": "planta_grande.png",
+   "classe_marcada": "planta",
+   "situacao_no_conjunto": "pronta",
+   "resultado": "acerto",
+   "deteccoes": [
+    {
+     "classe": "planta",
+     "nota": 0.826,
+     "caixa_px": [
+      5.3,
+      0.0,
+      727.4,
+      762.0
+     ]
+    }
+   ]
+  }
+ ]
+}

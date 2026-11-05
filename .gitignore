@@ -1,0 +1,7 @@
+node_modules/
+package-lock.json
+treino/conjuntos/percurso/yolo-*/
+treino/execucoes/
+treino/modelo-anterior/
+treino/ultimo-best.pt
+runs/

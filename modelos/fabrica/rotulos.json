@@ -1,0 +1,150 @@
+{
+ "tamanho": 416,
+ "classes": [
+  "caixa",
+  "carteira",
+  "escada",
+  "lixeira",
+  "manequim",
+  "mesa",
+  "banco",
+  "planta",
+  "cadeira",
+  "pessoa",
+  "pino"
+ ],
+ "versao": "20261105-percurso",
+ "conjunto": "percurso (100 imagens do percurso com 159 pinos revisados + pseudo-rótulos das classes antigas) + banco_unificado (59 fotos)",
+ "mAP50": 0.988,
+ "mAP50_95": 0.804,
+ "mAP50_por_classe": {
+  "caixa": 0.959,
+  "lixeira": 0.995,
+  "manequim": 0.995,
+  "mesa": 0.995,
+  "banco": 0.995,
+  "planta": 0.995,
+  "cadeira": 0.995,
+  "pessoa": 0.995,
+  "pino": 0.966
+ },
+ "fotos_por_classe": {
+  "caixa": 40,
+  "carteira": 8,
+  "escada": 3,
+  "lixeira": 10,
+  "manequim": 15,
+  "mesa": 12,
+  "banco": 6,
+  "planta": 17,
+  "cadeira": 16,
+  "pessoa": 8,
+  "pino": 92
+ },
+ "fotos_vazias": 17,
+ "epocas": 80,
+ "falas": {
+  "caixa": {
+   "s": "caixa",
+   "p": "caixas",
+   "g": "f",
+   "prio": 2,
+   "off": 0
+  },
+  "carteira": {
+   "s": "carteira",
+   "p": "carteiras",
+   "g": "f",
+   "prio": 2,
+   "off": -0.15
+  },
+  "escada": {
+   "s": "escada",
+   "p": "escadas",
+   "g": "f",
+   "prio": 2,
+   "off": 0
+  },
+  "lixeira": {
+   "s": "lixeira",
+   "p": "lixeiras",
+   "g": "f",
+   "prio": 2,
+   "off": 0
+  },
+  "manequim": {
+   "s": "manequim",
+   "p": "manequins",
+   "g": "m",
+   "prio": 2,
+   "off": 0
+  },
+  "mesa": {
+   "s": "mesa",
+   "p": "mesas",
+   "g": "f",
+   "prio": 2,
+   "off": -0.15
+  },
+  "banco": {
+   "s": "banco",
+   "p": "bancos",
+   "g": "m",
+   "prio": 2,
+   "off": -0.1
+  },
+  "planta": {
+   "s": "planta",
+   "p": "plantas",
+   "g": "f",
+   "prio": 1,
+   "off": 0
+  },
+  "cadeira": {
+   "s": "cadeira",
+   "p": "cadeiras",
+   "g": "f",
+   "prio": 2,
+   "off": -0.15
+  },
+  "pessoa": {
+   "s": "pessoa",
+   "p": "pessoas",
+   "g": "f",
+   "prio": 3,
+   "off": 0
+  },
+  "pino": {
+   "s": "pino",
+   "p": "pinos",
+   "g": "m",
+   "prio": 2,
+   "off": -0.1
+  }
+ },
+ "caracteristicas": [
+  "p4",
+  "p5"
+ ],
+ "metricas_leia": "mAP50 / mAP50_95 / mAP50_por_classe: medidos DENTRO da amostra (as fotos de validação também estão no treino do modelo publicado). A medição em fotos que o modelo não viu está em validacao: modelo da dobra \"validacao\" (mesmo treino, sem as 8 fotos com grafo anotado, os quadros 41-50 do vídeo e o val do banco unificado), 60 épocas, 44 imagens.",
+ "validacao": {
+  "mAP50": 0.955,
+  "mAP50_95": 0.724,
+  "por_classe_mAP50": {
+   "caixa": 0.93,
+   "lixeira": 0.995,
+   "manequim": 0.995,
+   "mesa": 0.995,
+   "banco": 0.995,
+   "planta": 0.995,
+   "cadeira": 0.944,
+   "pessoa": 0.995,
+   "pino": 0.751
+  },
+  "pino": {
+   "precisao": 0.816,
+   "revocacao": 0.724,
+   "mAP50_95": 0.447
+  }
+ }
+}

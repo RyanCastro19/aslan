@@ -1,0 +1,11 @@
+{
+ "_leia": "Anotação à mão (Claude, 05/11/2026) de fotos do percurso. pinos: [x1,y1,x2,y2] normalizados; arestas: pares de índices ligados por corrente/fita entre os dois ganchos; soltas: pinos com corrente saindo do quadro. Usado por treino/avaliar_percurso.py.",
+ "percurso_fotos (1).jpeg": {"pinos": [[0.0,0.53,0.20,0.86],[0.28,0.42,0.35,0.58],[0.37,0.40,0.40,0.50]], "arestas": [[0,1]], "ordem_distancia": [0,1,2]},
+ "percurso_fotos (5).jpeg": {"pinos": [[0.28,0.43,0.33,0.60],[0.60,0.42,0.66,0.61],[0.76,0.40,0.92,0.61],[0.70,0.40,1.0,1.0],[0.0,0.76,0.25,1.0]], "arestas": [[0,1]]},
+ "percurso_fotos (7).jpeg": {"pinos": [[0.23,0.44,0.33,0.64],[0.66,0.42,0.73,0.63],[0.76,0.25,0.98,0.97]], "arestas": [[0,1]], "ordem_distancia": [2,0,1]},
+ "percurso_fotos (8).jpeg": {"pinos": [[0.19,0.49,0.35,0.74],[0.36,0.40,0.41,0.56],[0.60,0.40,0.66,0.56],[0.63,0.46,0.80,0.79],[0.79,0.39,0.86,0.57]], "arestas": [[1,2]], "ordem_distancia": [0,3,1]},
+ "percurso_fotos (9).jpeg": {"pinos": [[0.26,0.42,0.33,0.58],[0.60,0.40,0.66,0.56],[0.66,0.44,0.79,0.73]], "arestas": [[0,1]], "ordem_distancia": [2,0]},
+ "percurso_fotos (10).jpeg": {"pinos": [[0.30,0.40,0.38,0.62],[0.87,0.35,0.92,0.46]], "arestas": [[0,1]], "ordem_distancia": [0,1]},
+ "percurso_fotos (11).jpeg": {"pinos": [[0.0,0.40,0.07,0.53],[0.31,0.40,0.37,0.52],[0.58,0.39,0.63,0.52],[0.61,0.41,0.71,0.62],[0.69,0.47,0.92,0.83],[0.83,0.39,0.86,0.51]], "arestas": [[0,1],[1,2]], "ordem_distancia": [4,3,2]},
+ "percurso_fotos (14).jpeg": {"pinos": [[0.13,0.53,0.30,0.82],[0.34,0.40,0.38,0.56],[0.82,0.37,0.86,0.46],[0.72,0.48,0.88,0.79]], "arestas": [[0,1],[1,2]], "ordem_distancia": [0,3,1,2]}
+}
